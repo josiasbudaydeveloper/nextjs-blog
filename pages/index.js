@@ -20,6 +20,16 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <meta name="description" content="Hi, I'm Josias Buday Dias, I'm a Full Stack JS Developer." key="desc" />
+        <meta property="og:title" content="Josias Buday Dias" />
+        <meta
+          property="og:description"
+          content="Hi, I'm Josias Buday Dias, I'm a Full Stack JS Developer."
+        />
+        <meta
+          property="og:image"
+          content="https://josiasbudaydeveloper-blog-app.vercel.app/_next/image?url=%2Fimages%2Fprofile.jpg&w=256&q=75"
+        />
       </Head>
 
       <section className={utilStyles.description}>
