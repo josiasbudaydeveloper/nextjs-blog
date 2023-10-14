@@ -1,0 +1,9 @@
+# Just saving this  file to have a reference of what is robots.txt and how it works 
+
+# Block all crawlers for /accounts
+User-agent: *
+Disallow: /accounts
+
+# Allow all crawlers
+User-agent: *
+Allow: /
