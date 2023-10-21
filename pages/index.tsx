@@ -18,12 +18,13 @@ export default function Home({
   return (
     <Layout home>
       <Head>
-        <title>Blog App</title>
+        <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hi, I'm Josias Buday Dias, I'm a <b>Full Stack JS Developer</b>. I the <b>main</b>
-          technologies I <b>currently know</b> are: <b>React.js, Next.js, Express.js, MongoDB and PostGreSQL</b>
+          Hi, I'm Josias Buday Dias, I'm a <b>Full Stack JS Developer</b>. The <b>main </b>
+          technologies I <b>currently know</b> are: <b>React.js</b>, <b>Next.js</b>, 
+          <b> Express.js</b>, <b>MongoDB</b> and <b>PostGreSQL</b>
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
