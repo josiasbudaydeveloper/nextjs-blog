@@ -1,3 +1,4 @@
+# This is a file responsible for saing to web crawlers which pages they can have access or not 
 # Just saving this  file to have a reference of what is robots.txt and how it works 
 
 # Block all crawlers for /accounts
